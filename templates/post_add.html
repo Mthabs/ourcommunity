@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid mt-5 mb-5">
+    <div class="container mt-5 pt-4">
+        <div class="col-md-8 mx-auto card mb-5 mt-3">
+            <h2 class="mb-4 text-center">Create Post</h2>
+            <form method="post" enctype="multipart/form-data" class="text-center">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary">Create Post</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function slugify(string) {
+            return string.toString().toLowerCase()
+                .trim()
+                .replace(/\s+/g, '-')           // Replace spaces with -
+                .replace(/[^\w\-]+/g, '')       // Remove all non-word characters
+                .replace(/\-\-+/g, '-');        // Replace multiple - with single -
+        }
+
+        document.getElementById('id_title').addEventListener('input', function () {
+            document.getElementById('id_slug').value = slugify(this.value);
+        });
+    </script>
+</div>
+{% endblock %}
