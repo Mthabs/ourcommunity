@@ -1,0 +1,86 @@
+{% extends 'base.html' %} {% block content %}
+{% load crispy_forms_tags %} 
+<div class="container-fluid">
+    <div class="row justify-content-center mt-5 pt-4">
+        <!-- Blog Entries Column -->
+        <div class="col-md-4">
+            <!-- Single Blog Card -->
+            <div class="card mb-7">
+                <h2 class="card-title mb-2">{{ post.title }}</h2> <!-- Added a margin-bottom (mb-2) to create space -->
+                {% if "placeholder" in post.featured_image.url %}
+                <img class="card-img-top mt-2" src="/media/image/" />
+                {% else %}
+                <img class="card-img-top mt-2" src="{{ post.featured_image.url }}" />
+                <!-- Added a margin-top (mt-2) to create space -->
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col card mb-4  mt-3 left  top">
+                <div class="card-body">
+                    <!-- The post content goes inside the card-text. -->
+                    <!-- Use the | safe filter inside the template tags -->
+                    <p class="card-text ">
+                        {{ post.content | safe }}
+                    </p>
+                    <div class="row">
+                        <div class="col-12 col-md-2">
+                            <!-- Merging both col-1 into a single col-2 for better spacing -->
+                            {% if user.is_authenticated %}
+                            <form class="d-inline" action="{% url 'post_like' post.slug %}" method="POST">
+                                {% csrf_token %}
+                                {% if liked %}
+                                <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like">Like</button>
+                                {% else %}
+                                <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like">Like</button>
+                                {% endif %}
+                            </form>
+                            {% else %}
+                            <button class="btn-like" disabled>Like</button> <!-- Disabled button for non-authenticated users -->
+                            {% endif %}
+                            <span>{{ post.number_of_likes }} likes</span>  
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <!-- Adjusting to col-2 for consistency -->
+                            {% with comments.count as total_comments %}
+                            <span>{{ total_comments }} comments</span>
+                            {% endwith %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 card mb-4 mt-3 order-2 order-md-1">
+                <h3>Comments:</h3>
+                <div class="card-body">
+                    <!-- We want a for loop inside the empty control tags to iterate through each comment in comments -->
+                    {% for comment in comments %}
+                    <div class="comments" style="padding: 10px;">
+                        <p class="font-weight-bold">
+                            <!-- The commenter's name goes here. Check the model if you're not sure what that is -->
+                            {{ comment.name }}
+                            <span class=" text-muted font-weight-normal">
+                                <!-- The comment's created date goes here -->
+                                {{ comment.created_on }}
+                            </span> 
+                        </p>
+                        <!-- The body of the comment goes before the | -->
+                        {{ comment.body | linebreaks }}
+                    </div>
+                    <!-- Our for loop ends here -->
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

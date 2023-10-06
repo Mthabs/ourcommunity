@@ -14,3 +14,25 @@ body {
     color: black;
     font-weight: bold;
 }
+.light-bg {
+    background-color: #fff;
+}
+
+.dark-bg {
+    background-color: #800080;
+}
+
+.main-bg {
+    background-color: #F9FAFC;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+.card-body .alert.alert-success {
+    background-color: purple; 
+    color:white;
+    text-align: center;
+    opacity:0.6;
+}
