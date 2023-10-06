@@ -77,3 +77,13 @@ body {
     opacity: 0.8;
     z-index: 100;
 }
+
+.post-link {
+    text-decoration: none;
+    color: #445261;
+}
+
+.post-link:hover,
+.page-link {
+    color: blue;
+}
