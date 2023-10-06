@@ -30,7 +30,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+
 ALLOWED_HOSTS = ['8000-mthabs-ourcommunity-hwd3vvq1e5.us2.codeanyapp.com']
+
 
 
 # Application definition
@@ -70,7 +73,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
 ]
-
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 ROOT_URLCONF = 'Sayit.urls'
 

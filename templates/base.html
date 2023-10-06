@@ -39,6 +39,12 @@
             <div class="container-fluid">
                 <!-- Branding/Logo -->
                 <div class="logo">Say<span>it</span></div>
+                            <!-- Centered Create Post Link -->
+                <div class="d-flex justify-content-center flex-grow-1">
+                    {% if user.is_authenticated %}
+                    <a href="{% url 'post_add' %}" class="bt-purple">Create Post</a>
+                    {% endif %}
+                </div>
                 <!-- Toggle button for collapsing items in smaller screens -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

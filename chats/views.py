@@ -12,6 +12,7 @@ class PostList(generic.ListView):
     template_name = "index.html"
     paginate_by = 6
 
+
 class PostDetail(View):
 
     def get(self, request, slug, *args, **kwargs):
@@ -65,6 +66,7 @@ class PostDetail(View):
             },
         )
 
+
 class PostLike(View):
 
     def post(self, request, slug, *args, **kwargs):
@@ -75,6 +77,7 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
 
 class PostCreate(View):
     template_name = 'post_add.html'
