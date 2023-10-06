@@ -1,8 +1,10 @@
-from django.shortcuts import render, get_object_or_404, reverse
+from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
 from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm
+from django.urls import reverse_lazy
+from .forms import PostForm
 
 class PostList(generic.ListView):
     model = Post
@@ -62,6 +64,7 @@ class PostDetail(View):
                 "liked": liked
             },
         )
+
 class PostLike(View):
 
     def post(self, request, slug, *args, **kwargs):
@@ -72,3 +75,20 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+class PostCreate(View):
+    template_name = 'post_add.html'
+    form_class = PostForm
+
+    def get(self, request, *args, **kwargs):
+        form = self.form_class()
+        return render(request, self.template_name, {'form': form})
+
+    def post(self, request, *args, **kwargs):
+        form = self.form_class(request.POST, request.FILES)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.author = request.user  # Assuming you have a field called author in Post model
+            post.save()
+            return HttpResponseRedirect(reverse_lazy('home'))
+        return render(request, self.template_name, {'form': form})
