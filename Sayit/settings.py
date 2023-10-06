@@ -58,6 +58,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+ACCOUNT_EMAIL_VERIFICATION = 'none'
 ROOT_URLCONF = 'Sayit.urls'
 
 TEMPLATES = [
