@@ -97,3 +97,14 @@ body {
     margin-left: 5%;
     color: whitesmoke;
 }
+
+.btn-signup {
+    background-color: purple;
+    color: #fff;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: #fff;
+    color: purple;
+}
