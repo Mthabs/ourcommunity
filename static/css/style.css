@@ -119,3 +119,23 @@ body {
     color: #445261;
     text-decoration: underline;
 }
+.btn-like {
+    border: none;
+}
+
+.btn-like:hover,
+.btn-like:active {
+    color: red;
+    background: transparent;
+    border: none;
+}
+
+.text-center button{
+    background-color: purple;
+}
+
+.btn {
+    width: auto;
+    max-width: 200px;
+    white-space: nowrap;
+}
