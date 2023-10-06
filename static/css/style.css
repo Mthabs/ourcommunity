@@ -44,3 +44,36 @@ body {
     text-align: center;
     opacity:0.6;
 }
+
+.masthead {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 33vh;
+    width: 100%;
+}
+
+.masthead-text {
+    background-color: purple;
+    opacity: 0.8;
+    color: white;
+    position: relative;
+}
+
+.masthead-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.masthead-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 90%;
+    height: 100%;
+    width: 150%;
+    background: purple;
+    opacity: 0.8;
+    z-index: 100;
+}
