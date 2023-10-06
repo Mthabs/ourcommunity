@@ -108,3 +108,14 @@ body {
     background-color: #fff;
     color: purple;
 }
+
+.link {
+    color: purple;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+    color: #445261;
+    text-decoration: underline;
+}
