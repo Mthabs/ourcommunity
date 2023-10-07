@@ -53,6 +53,7 @@ class PostDetail(View):
             comment = comment_form.save(commit=False)
             comment.post = post
             comment.save()
+            return redirect(reverse('post_detail', kwargs={'slug': slug}) + '?commented=true')
         else:
             comment_form = CommentForm()
 
