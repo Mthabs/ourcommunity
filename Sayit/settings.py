@@ -32,7 +32,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['8000-mthabs-ourcommunity-hwd3vvq1e5.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['sayit23-52a5eb9ddc47.herokuapp.com']
 
 
 
