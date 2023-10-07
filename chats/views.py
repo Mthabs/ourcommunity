@@ -23,6 +23,8 @@ class PostDetail(View):
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True
 
+            # Check if the commented query parameter exists
+        commented = 'commented' in request.GET
         return render(
             request,
             "post_detail.html",
@@ -31,7 +33,7 @@ class PostDetail(View):
                 "comments": comments,
                 "liked": liked,
                 "comment_form": CommentForm()
-
+                "commented": commented
             },
         )
 
