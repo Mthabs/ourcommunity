@@ -84,23 +84,37 @@
                 <div class="card-body">
                     {% if commented %}
                     <div class="alert alert-success" role="alert">
-                                approval still panding.......
+                        approval still pending.......
                     </div>
-                    {% else %}
-                    {% if user.is_authenticated %}
-
-                    <h3>Leave a comment:</h3>
-                    <p>Posting as: {{ user.username }}</p>
-                    <form method="post" style="margin-top: 1.3em;">
-                        {{ comment_form | crispy }}
-                        {% csrf_token %}
-                        <button type="submit" class="btn btn-signup btn-lg">Submit</button>
-                    </form>
                     {% endif %}
-                    {% endif %}
+            
+                    <div id="comment-form" {% if commented %}style="display: none;"{% endif %}>
+                        {% if user.is_authenticated %}
+                        <h3>Leave a comment:</h3>
+                        <p>Posting as: {{ user.username }}</p>
+                        <form method="post" style="margin-top: 1.3em;">
+                            {{ comment_form | crispy }}
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-signup btn-lg">Submit</button>
+                        </form>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 {% endblock content %}
+{% block extra_js %}
+<script>
+    // Your custom JavaScript/jQuery code
+    $(document).ready(function() {
+        setTimeout(function() {
+            $(".alert-success").fadeOut(function() {
+                $(this).remove();
+                $("#comment-form").fadeIn();
+            });
+        }, 5000);  // Wait for 5 seconds
+    });
+</script>
+{% endblock %}
