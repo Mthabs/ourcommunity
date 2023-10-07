@@ -15,10 +15,10 @@
                   {% if "placeholder" in post.featured_image.url %}
                   <img
                       class="card-img-top"
-                      src="/media/image/"
+                      src="https://res.cloudinary.com/dnt7oro5y/image/upload/v1696335954/static/images/pexels-pixabay-356056.c12eb0a92a08.jpg" alt="Eclipse"
                   />
                   {% else %}
-                  <img class="card-img-top" src=" {{ post.featured_image.url }}" />
+                  <img class="card-img-top" src="{{ post.featured_image.url }}" />
                   {% endif %}
                   </div>
               </a>
