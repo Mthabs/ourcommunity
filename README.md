@@ -30,7 +30,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 **Existing Features**
 
 **1. Navigation Bar**
-
+![ezcv logo]()
 -	Unparalleled Ease: With a crisp design and intuitive layout, users can effortlessly journey through the site's various sections, without the guesswork.
 -	Branding Recognition: A prominently placed logo reinforces brand identity, enhancing user trust and platform legitimacy.
 -	Instant Access: Direct links to the Home, Sign Up, Login, and Create Post, ensuring users are always one click away from their desired action.
@@ -38,7 +38,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Optimized for All Devices: Whether on a smartphone, tablet, or desktop, the navigation retains its aesthetics and functionality, guaranteeing a consistent user experience.
 
 **2. Landing Page**
-  
+  ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696776219/navigation_i2uspl.png)
 -	First Impressions Matter: Crafted to captivate and inform simultaneously, ensuring newcomers are instantly engaged and informed.
 -	Content Showcase: A curated display of recent posts acts as a teaser, encouraging deeper exploration.
 -	Responsive Design: Optimized to dazzle on any screen size, making sure every visitor's experience is top-notch.
@@ -46,7 +46,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Engagement Catalyst: With prominent links and call-to-actions, the landing page serves as the heartbeat of user activity.
    
 **3. Sign Up & Login Pages**
-
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774941/Screenshot_2023-10-08_150048_vk6yoz.png)
 -	User-centric Flow: Clearly demarcated fields guide newcomers to effortlessly create an account.
 -	Secure & Transparent: Embedded password guidelines guarantee robust security while keeping users in the loop.
 -	Versatility: Provides pathways for both newcomers and returning users, ensuring smooth transitions.
@@ -54,7 +54,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Seamless Integration: Post-signup/login, users are redirected to the landing page, ensuring a fluid navigation experience.
    
 **4. Post Creation Form**
-
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774940/Screenshot_2023-10-08_150425_jryuxe.png)
 -	Empowering Creators: A meticulously designed form ensures users can articulate and share their thoughts without any hurdles.
 -	Tailored Publishing: Fields like slug and author selection give creators control over post presentation.
 -	Visual Engagement: The image upload feature allows for enriched content, enhancing reader engagement.
@@ -62,6 +62,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Instant Gratification: Upon post submission, creators immediately witness their content on the landing page, fostering a sense of achievement.
    
 **5.	Index (Main Content Display)**
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774940/Screenshot_2023-10-08_150351_xuqppn.png)
 -	Content Galore: A vibrant display of posts, equipped with all the necessary snippets like author, date, and excerpt.
 -	Engagement Metrics: With real-time likes and comments, readers can instantly gauge post popularity.
 -	Diverse Exploration: Each post acts as an invitation to delve deeper, with clickable titles and images.
@@ -69,6 +70,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Community Pulse: By showcasing reader engagement, the index page embodies the vibrancy of the Sayit community.
    
 **6.	Post Detail Page**
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774940/Screenshot_2023-10-08_150525_h4304g.png)
 -	Holistic Experience: Beyond the post's content, users can interact through likes, comments, and share options.
 -	Engagement Amplified: A dedicated space for comments fosters richer discussions and deeper community bonds.
 -	Instant Feedback Loop: Comment approval notifications ensure users feel acknowledged and valued.
@@ -76,6 +78,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Seamless Return: Prominent 'Home' links ensure readers can effortlessly jump back to the main content hub.
    
 **7.	Footer**
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696776709/footer_ktkey1.png)
 -	Social Connectivity: Direct links to Sayit's social channels expand the community beyond the main site.
 -	Stay Updated: Users can follow updates, events, and news through connected social platforms.
 -	Brand Reinforcement: A consistent footer across pages cements the brand's digital footprint.
