@@ -30,7 +30,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 **Existing Features**
 
 **1. Navigation Bar**
-![ezcv logo]()
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696776219/navigation_i2uspl.png)
 -	Unparalleled Ease: With a crisp design and intuitive layout, users can effortlessly journey through the site's various sections, without the guesswork.
 -	Branding Recognition: A prominently placed logo reinforces brand identity, enhancing user trust and platform legitimacy.
 -	Instant Access: Direct links to the Home, Sign Up, Login, and Create Post, ensuring users are always one click away from their desired action.
@@ -38,7 +38,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Optimized for All Devices: Whether on a smartphone, tablet, or desktop, the navigation retains its aesthetics and functionality, guaranteeing a consistent user experience.
 
 **2. Landing Page**
-  ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696776219/navigation_i2uspl.png)
+  ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1696774940/Screenshot_2023-10-08_150351_xuqppn.png)
 -	First Impressions Matter: Crafted to captivate and inform simultaneously, ensuring newcomers are instantly engaged and informed.
 -	Content Showcase: A curated display of recent posts acts as a teaser, encouraging deeper exploration.
 -	Responsive Design: Optimized to dazzle on any screen size, making sure every visitor's experience is top-notch.
@@ -125,7 +125,7 @@ Detailed testing has been conducted across various browsers and screen sizes. Ea
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_230428_ogono5.png)
 **CSS**
 - Validated using the Jigsaw validator with no errors found.
-- 
+  
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_232238_oatxas.png)
 
 ## Unfixed Bugs
