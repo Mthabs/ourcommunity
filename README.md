@@ -106,13 +106,27 @@ Detailed testing has been conducted across various browsers and screen sizes. Ea
 
 **HTML**
 
-- No errors were identified when validated through the official W3C validator.
 
+- No errors were identified when validated through the official W3C validator.
+  
+  ### Home page validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696804338/Screenshot_2023-10-08_233126_yf7mst.png)
+
+  ### SignUp validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_231804_d0c4br.png)
+
+  ### Login validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_231857_emshsr.png)
+
+  ### Logout validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_230609_uisvww.png)
+
+  ### Create post validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_230428_ogono5.png)
 **CSS**
 - Validated using the Jigsaw validator with no errors found.
-
-**JavaScript**
-- Checked for errors and potential optimizations. No significant issues found.
+- 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_232238_oatxas.png)
 
 ## Unfixed Bugs
 
