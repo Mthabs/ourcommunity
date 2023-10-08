@@ -21,47 +21,47 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 Existing Features
 
 1.	Navigation Bar
-    •	Unparalleled Ease: With a crisp design and intuitive layout, users can effortlessly journey through the site's various sections, without the guesswork.
-    •	Branding Recognition: A prominently placed logo reinforces brand identity, enhancing user trust and platform legitimacy.
-    •	Instant Access: Direct links to the Home, Sign Up, Login, and Create Post, ensuring users are always one click away from their desired action.
-    •	Dynamic Display: Depending on user status (logged in/out), the navigation bar adapts to show relevant options, personalizing the experience.
-    •	Optimized for All Devices: Whether on a smartphone, tablet, or desktop, the navigation retains its aesthetics and functionality, guaranteeing a consistent user experience.
+    *	Unparalleled Ease: With a crisp design and intuitive layout, users can effortlessly journey through the site's various sections, without the guesswork.
+    *	Branding Recognition: A prominently placed logo reinforces brand identity, enhancing user trust and platform legitimacy.
+    *	Instant Access: Direct links to the Home, Sign Up, Login, and Create Post, ensuring users are always one click away from their desired action.
+    *	Dynamic Display: Depending on user status (logged in/out), the navigation bar adapts to show relevant options, personalizing the experience.
+    *	Optimized for All Devices: Whether on a smartphone, tablet, or desktop, the navigation retains its aesthetics and functionality, guaranteeing a consistent user experience.
 2.	Landing Page
-    •	First Impressions Matter: Crafted to captivate and inform simultaneously, ensuring newcomers are instantly engaged and informed.
-    •	Content Showcase: A curated display of recent posts acts as a teaser, encouraging deeper exploration.
-    •	Responsive Design: Optimized to dazzle on any screen size, making sure every visitor's experience is top-notch.
-    •	Quick Overview: Users can gauge the site's essence at a glance, streamlining their journey.
-    •	Engagement Catalyst: With prominent links and call-to-actions, the landing page serves as the heartbeat of user activity.
+    *	First Impressions Matter: Crafted to captivate and inform simultaneously, ensuring newcomers are instantly engaged and informed.
+    *	Content Showcase: A curated display of recent posts acts as a teaser, encouraging deeper exploration.
+    *	Responsive Design: Optimized to dazzle on any screen size, making sure every visitor's experience is top-notch.
+    *	Quick Overview: Users can gauge the site's essence at a glance, streamlining their journey.
+    *	Engagement Catalyst: With prominent links and call-to-actions, the landing page serves as the heartbeat of user activity.
 3.	Sign Up & Login Pages
-    •	User-centric Flow: Clearly demarcated fields guide newcomers to effortlessly create an account.
-    •	Secure & Transparent: Embedded password guidelines guarantee robust security while keeping users in the loop.
-    •	Versatility: Provides pathways for both newcomers and returning users, ensuring smooth transitions.
-    •	Feedback Mechanisms: Instant alerts for any errors or missing information, minimizing user frustration.
-    •	Seamless Integration: Post-signup/login, users are redirected to the landing page, ensuring a fluid navigation experience.
+    *	User-centric Flow: Clearly demarcated fields guide newcomers to effortlessly create an account.
+    *	Secure & Transparent: Embedded password guidelines guarantee robust security while keeping users in the loop.
+    *	Versatility: Provides pathways for both newcomers and returning users, ensuring smooth transitions.
+    *	Feedback Mechanisms: Instant alerts for any errors or missing information, minimizing user frustration.
+    *	Seamless Integration: Post-signup/login, users are redirected to the landing page, ensuring a fluid navigation experience.
 4.	Post Creation Form
-    •	Empowering Creators: A meticulously designed form ensures users can articulate and share their thoughts without any hurdles.
-    •	Tailored Publishing: Fields like slug and author selection give creators control over post presentation.
-    •	Visual Engagement: The image upload feature allows for enriched content, enhancing reader engagement.
-    •	Streamlined Process: With intuitive field placements and helpful tooltips, even novices can create like pros.
-    •	Instant Gratification: Upon post submission, creators immediately witness their content on the landing page, fostering a sense of achievement.
+    *	Empowering Creators: A meticulously designed form ensures users can articulate and share their thoughts without any hurdles.
+    *	Tailored Publishing: Fields like slug and author selection give creators control over post presentation.
+    *	Visual Engagement: The image upload feature allows for enriched content, enhancing reader engagement.
+    *	Streamlined Process: With intuitive field placements and helpful tooltips, even novices can create like pros.
+    *	Instant Gratification: Upon post submission, creators immediately witness their content on the landing page, fostering a sense of achievement.
 5.	Index (Main Content Display)
-    •	Content Galore: A vibrant display of posts, equipped with all the necessary snippets like author, date, and excerpt.
-    •	Engagement Metrics: With real-time likes and comments, readers can instantly gauge post popularity.
-    •	Diverse Exploration: Each post acts as an invitation to delve deeper, with clickable titles and images.
-    •	Timely Updates: Freshly curated content ensures users always have something new to explore.
-    •	Community Pulse: By showcasing reader engagement, the index page embodies the vibrancy of the Sayit community.
+    *	Content Galore: A vibrant display of posts, equipped with all the necessary snippets like author, date, and excerpt.
+    *	Engagement Metrics: With real-time likes and comments, readers can instantly gauge post popularity.
+    *	Diverse Exploration: Each post acts as an invitation to delve deeper, with clickable titles and images.
+    *	Timely Updates: Freshly curated content ensures users always have something new to explore.
+    *	Community Pulse: By showcasing reader engagement, the index page embodies the vibrancy of the Sayit community.
 6.	Post Detail Page
-    •	Holistic Experience: Beyond the post's content, users can interact through likes, comments, and share options.
-    •	Engagement Amplified: A dedicated space for comments fosters richer discussions and deeper community bonds.
-    •	Instant Feedback Loop: Comment approval notifications ensure users feel acknowledged and valued.
-    •	Content Depth: With full post details, readers can immerse themselves without distractions.
-    •	Seamless Return: Prominent 'Home' links ensure readers can effortlessly jump back to the main content hub.
+    *	Holistic Experience: Beyond the post's content, users can interact through likes, comments, and share options.
+    *	Engagement Amplified: A dedicated space for comments fosters richer discussions and deeper community bonds.
+    *	Instant Feedback Loop: Comment approval notifications ensure users feel acknowledged and valued.
+    *	Content Depth: With full post details, readers can immerse themselves without distractions.
+    *	Seamless Return: Prominent 'Home' links ensure readers can effortlessly jump back to the main content hub.
 7.	Footer
-    •	Social Connectivity: Direct links to Sayit's social channels expand the community beyond the main site.
-    •	Stay Updated: Users can follow updates, events, and news through connected social platforms.
-    •	Brand Reinforcement: A consistent footer across pages cements the brand's digital footprint.
-    •	Quick Access: Quick links facilitate navigation to other site sections or external platforms.
-    •	Trust Building: Showcasing an active social presence enhances platform legitimacy and user trust.
+    *	Social Connectivity: Direct links to Sayit's social channels expand the community beyond the main site.
+    *	Stay Updated: Users can follow updates, events, and news through connected social platforms.
+    *	Brand Reinforcement: A consistent footer across pages cements the brand's digital footprint.
+    *	Quick Access: Quick links facilitate navigation to other site sections or external platforms.
+    *	Trust Building: Showcasing an active social presence enhances platform legitimacy and user trust.
     
 Each feature has been meticulously designed and structured to enhance user experience, promote engagement, and ensure that Sayit stands out as an unparalleled platform in its domain.
 
@@ -69,10 +69,10 @@ Each feature has been meticulously designed and structured to enhance user exper
 
 User Profiles
 
-• Enhanced user profiles with avatars, post history, and more.
+* Enhanced user profiles with avatars, post history, and more.
 
 Notification System
-•	Notify users of new comments or likes on their posts.
+*	Notify users of new comments or likes on their posts.
 
 These enhancements are not just additions, but a testament to our commitment to continually refining the user experience. We believe in evolving with our community's needs and are excited to bring these new facets to our platform soon.
 
@@ -82,13 +82,13 @@ Detailed testing has been conducted across various browsers and screen sizes. Ea
 ## Validator Testing
 
 HTML
-•	No errors were identified when validated through the official W3C validator.
+*	No errors were identified when validated through the official W3C validator.
 
 CSS
-•	Validated using the Jigsaw validator with no errors found.
+*	Validated using the Jigsaw validator with no errors found.
 
 JavaScript
-•	Checked for errors and potential optimizations. No significant issues found.
+*	Checked for errors and potential optimizations. No significant issues found.
 
 ## Unfixed Bugs
 
@@ -110,10 +110,10 @@ Now back to Heroku Dashboard,
 ## Credits
 
 ## Content
-    •	News articles are user-generated.
-    •	Commenting functionality implemented with guidance from specific Django documentation.
-    •	Icons sourced from Font Awesome.
+    *	News articles are user-generated.
+    *	Commenting functionality implemented with guidance from specific Django documentation.
+    *	Icons sourced from Font Awesome.
 
 ## Media
-    •	Main site images sourced from open-source image repositories.
-    •	User profile avatars provided by default or uploaded by the user.
+    *	Main site images sourced from open-source image repositories.
+    *	User profile avatars provided by default or uploaded by the user.
