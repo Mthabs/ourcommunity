@@ -154,3 +154,94 @@ Now back to Heroku Dashboard,
 
 ## Media
 -	Main sites provided by default or uploaded by the user.
+
+
+##  Community Forum User Stories
+
+**User Story: As a visitor, I want to view posts so that I can read the content.**
+
+***Tasks:***
+
+1.	Front-end:
+-   Set up a Home page layout with the list of blog posts.
+-   Each post should display the title, an excerpt, author, date, and associated image.
+-   Ensure the site is responsive for mobile and tablet views.
+2.	Back-end:
+-   Create a Post model with fields: title, content, author, date, featured_image.
+-   Set up views and routes to retrieve and display all posts.
+3.	Testing:
+-   Check the list of posts on different devices and browsers.
+-   Test if all necessary post details are being displayed.
+  
+**User Story: As a visitor, I want to read more about a post by clicking on its title so that I can understand the complete story.**
+
+***Tasks:***
+
+1.	Front-end:
+-   Set up a Post Detail page layout.
+-   Display full post content, including title, content, author, date, and featured_image.
+2.	Back-end:
+-   Set up views and routes to retrieve and display a single post based on its unique identifier or slug.
+3.	Testing:
+-   Ensure that clicking on a post title redirects to its detailed view.
+-   Check the details page on different devices and browsers.
+
+**User Story: As a registered user, I want to add a new post so that I can share my content with others.**
+
+***Tasks:***
+
+1.	Front-end:
+-   Create a Post Add form with fields for title, content, and image upload.
+-   Implement user feedback mechanisms like success and error notifications.
+2.	Back-end:
+-   Implement authentication checks to ensure only logged-in users can add posts.
+-   Save the new post details to the database.
+3.	Testing:
+-   Test the post creation form for validation errors.
+-   Ensure posts are correctly saved to the database.
+  
+**User Story: As a registered user, I want to comment on a post so that I can engage with the community.**
+
+***Tasks:***
+
+1.	Front-end:
+-   Create a comment form below each post in its detail view.
+-   Display existing comments with the commenter's name and date.
+2.	Back-end:
+-   Create a Comment model with fields: post, commenter_name, content, date.
+-   Save new comments to the database.
+3.	Testing:
+-   Test the comment form for validation errors.
+-   Ensure comments are correctly saved under the associated post.
+  
+**User Story: As a user, I want to like a post so that I can show my appreciation.**
+
+***Tasks:***
+
+1.	Front-end:
+-   Display a like button beneath each post.
+-   Show the number of likes a post has received.
+2.	Back-end:
+-   Implement a mechanism to record likes, ensuring a user can only like a post once.
+-   Update the post's like count in the database.
+3.	Testing:
+-   Ensure the like count increases only once per user.
+-   Test the like feature across different posts.
+  
+**User Story: As a user, I want to navigate through the site easily so that I can access major sections without confusion.**
+
+***Tasks:***
+
+1.	Front-end:
+-   Implement a clear and responsive navigation bar.
+-   Ensure the site's 'home' redirects to the home page.
+-   Place major site links (Home, Create Post, Sign Up, Login) in the navbar.
+2.	Back-end:
+-   Ensure all navigation routes are correctly set up and accessible.
+3.	Testing:
+-   Navigate through the site on various devices ensuring smooth transitions between sections.
+-   Test all navigation links to ensure they lead to the correct destinations.
+
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696843824/Screenshot_2023-10-06_134738_ulqcus.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696843824/Screenshot_2023-10-06_134915_ydafed.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696844389/Screenshot_2023-10-09_094309_fklflq.png)
