@@ -15,13 +15,14 @@
                   {% if "placeholder" in post.featured_image.url %}
                   <img
                       class="card-img-top"
-                      src="https://res.cloudinary.com/dnt7oro5y/image/upload/v1696698283/pexels-pixabay-356056_gv976l.jpg" alt="Eclipse"
+                      src="https://res.cloudinary.com/dnt7oro5y/image/upload/v1696698283/pexels-pixabay-356056_gv976l.jpg" alt="No Image to show"
                   />
                   {% else %}
                   <img class="card-img-top" src="{{ post.featured_image.url }}" />
                   {% endif %}
                   </div>
               </a>
+              <p>{{ post.Content }}</p>
               <p>Author: {{ post.author }}</p>
               <p>{{ post.excerpt }}</p>
               <hr />
