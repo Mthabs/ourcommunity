@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container-fluid mt-5 mb-5">
+    <div class="container mt-5 pt-4">
+        <div class="col-md-8 mx-auto card mb-5 mt-3">
+            <h2 class="mb-4 text-center">Edit Comment</h2>
+            <form method="post" class="text-center">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary">Update Comment</button>
+                <a href="{% url 'post_detail' slug=comment.post.slug %}" class="btn btn-secondary">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

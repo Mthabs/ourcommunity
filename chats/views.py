@@ -22,10 +22,10 @@ class PostDetail(View):
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(approved=True).order_by("-created_on")
         liked = False
-        if post.likes.filter(id=self.request.user.id).exists():
+        if request.user.is_authenticated and post.likes.filter(id=request.user.id).exists():
             liked = True
 
-            # Check if the commented query parameter exists
+        # Check if the commented query parameter exists
         commented = 'commented' in request.GET
         return render(
             request,
@@ -41,12 +41,11 @@ class PostDetail(View):
 
     @method_decorator(login_required)
     def post(self, request, slug, *args, **kwargs):
-
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(approved=True).order_by("-created_on")
         liked = False
-        if post.likes.filter(id=self.request.user.id).exists():
+        if post.likes.filter(id=request.user.id).exists():
             liked = True
 
         comment_form = CommentForm(data=request.POST)
@@ -72,7 +71,6 @@ class PostDetail(View):
             },
         )
 
-
 class PostLike(View):
 
     def post(self, request, slug, *args, **kwargs):
@@ -83,6 +81,41 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+class CommentEdit(View):
+    template_name = 'comment_edit.html'
+    form_class = CommentForm
+
+    @method_decorator(login_required)
+    def get(self, request, post_slug, comment_id, *args, **kwargs):
+        comment = get_object_or_404(Comment, id=comment_id, post__slug=post_slug, user=request.user)
+        form = self.form_class(instance=comment)
+        return render(request, self.template_name, {'form': form, 'comment': comment})
+
+    @method_decorator(login_required)
+    def post(self, request, post_slug, comment_id, *args, **kwargs):
+        comment = get_object_or_404(Comment, id=comment_id, post__slug=post_slug, user=request.user)
+        form = self.form_class(request.POST, instance=comment)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Comment updated successfully.")
+            return redirect(reverse('post_detail', kwargs={'slug': post_slug}))
+        return render(request, self.template_name, {'form': form, 'comment': comment})
+
+class CommentDelete(View):
+    template_name = 'comment_delete.html'
+
+    @method_decorator(login_required)
+    def get(self, request, post_slug, comment_id, *args, **kwargs):
+        comment = get_object_or_404(Comment, id=comment_id, post__slug=post_slug, user=request.user)
+        return render(request, self.template_name, {'comment': comment})
+
+    @method_decorator(login_required)
+    def post(self, request, post_slug, comment_id, *args, **kwargs):
+        comment = get_object_or_404(Comment, id=comment_id, post__slug=post_slug, user=request.user)
+        comment.delete()
+        messages.success(request, "Comment deleted successfully.")
+        return redirect(reverse('post_detail', kwargs={'slug': post_slug}))
 
 
 class PostCreate(View):
@@ -99,7 +132,7 @@ class PostCreate(View):
         form = self.form_class(request.POST, request.FILES)
         if form.is_valid():
             post = form.save(commit=False)
-            post.author = request.user  # Assuming you have a field called author in Post model
+            post.author = request.user  
             post.save()
             return HttpResponseRedirect(reverse_lazy('home'))
         return render(request, self.template_name, {'form': form})

@@ -32,7 +32,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['sayit23-52a5eb9ddc47.herokuapp.com','8000-mthabs-ourcommunity-eq1qn35iqms.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['sayit23-52a5eb9ddc47.herokuapp.com','8000-mthabs-ourcommunity-y7b5v0j37uj.ws-eu107.gitpod.io']
 
 
 

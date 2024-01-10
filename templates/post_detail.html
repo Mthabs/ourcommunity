@@ -26,14 +26,11 @@
                     <p class="card-text ">
                         {{ post.Content | safe }}
                     </p>
+                    <p>{{ post.excerpt }}</p>
                     <div class="row">
                         <div class="col-12 col-md-2">
                             <!-- Merging both col-1 into a single col-2 for better spacing -->
                             {% if user.is_authenticated %}
-                            {% if user == post.author %}
-                            <a href="{% url 'post_edit' post.slug %}" class="btn btn-primary">Edit</a>
-                            <a href="{% url 'post_delete' post.slug %}" class="btn btn-danger">Delete</a>
-                            {% endif %}
                             <form class="d-inline" action="{% url 'post_like' post.slug %}" method="POST">
                                 {% csrf_token %}
                                 {% if liked %}
@@ -52,6 +49,12 @@
                             {% with comments.count as total_comments %}
                             <span>{{ total_comments }} comments</span>
                             {% endwith %}
+                        </div>
+                        <div>
+                            {% if user.is_authenticated and user == post.author %}
+                                <a href="{% url 'post_edit' post.slug %}" class="btn btn-primary">Edit</a>
+                                <a href="{% url 'post_delete' post.slug %}" class="btn btn-danger">Delete</a>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
@@ -75,7 +78,11 @@
                             <span class=" text-muted font-weight-normal">
                                 <!-- The comment's created date goes here -->
                                 {{ comment.created_on }}
-                            </span> 
+                            </span>
+                            {% if user.is_authenticated and user.name == comment.name %}
+                                <a href="{% url 'comment_edit' post_slug=post.slug comment_id=comment.id %}">Edit</a>
+                                <a href="{% url 'comment_delete' post_slug=post.slug comment_id=comment.id %}">Delete</a>
+                            {% endif %} 
                         </p>
                         <!-- The body of the comment goes before the | -->
                         {{ comment.body | linebreaks }}
