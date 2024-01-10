@@ -1,10 +1,12 @@
 from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
 from django.http import HttpResponseRedirect
-from .models import Post
-from .forms import CommentForm
 from django.urls import reverse_lazy
-from .forms import PostForm
+from .models import Post
+from .forms import CommentForm, PostForm
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from django.utils.decorators import method_decorator
 
 class PostList(generic.ListView):
     model = Post
@@ -37,6 +39,7 @@ class PostDetail(View):
             },
         )
 
+    @method_decorator(login_required)
     def post(self, request, slug, *args, **kwargs):
 
         queryset = Post.objects.filter(status=1)
@@ -86,10 +89,12 @@ class PostCreate(View):
     template_name = 'post_add.html'
     form_class = PostForm
 
+    @method_decorator(login_required)
     def get(self, request, *args, **kwargs):
         form = self.form_class()
         return render(request, self.template_name, {'form': form})
 
+    @method_decorator(login_required)
     def post(self, request, *args, **kwargs):
         form = self.form_class(request.POST, request.FILES)
         if form.is_valid():
@@ -98,3 +103,58 @@ class PostCreate(View):
             post.save()
             return HttpResponseRedirect(reverse_lazy('home'))
         return render(request, self.template_name, {'form': form})
+
+class PostEdit(View):
+    template_name = 'post_edit.html'
+    form_class = PostForm
+
+    @method_decorator(login_required)
+    def get(self, request, slug, *args, **kwargs):
+        post = get_object_or_404(Post, slug=slug)
+        # Check if the user has the permission to edit the post
+        if request.user == post.author:
+            form = self.form_class(instance=post)
+            return render(request, self.template_name, {'form': form, 'post': post})
+        else:
+            messages.error(request, "You don't have permission to edit this post.")
+            return redirect(reverse('post_detail', kwargs={'slug': slug}))
+
+    @method_decorator(login_required)
+    def post(self, request, slug, *args, **kwargs):
+        post = get_object_or_404(Post, slug=slug)
+        # Check if the user has the permission to edit the post
+        if request.user == post.author:
+            form = self.form_class(request.POST, request.FILES, instance=post)
+            if form.is_valid():
+                form.save()
+                messages.success(request, "Post updated successfully.")
+                return redirect(reverse('post_detail', kwargs={'slug': slug}))
+            return render(request, self.template_name, {'form': form, 'post': post})
+        else:
+            messages.error(request, "You don't have permission to edit this post.")
+            return redirect(reverse('post_detail', kwargs={'slug': slug}))
+
+class PostDelete(View):
+    template_name = 'post_delete.html'
+
+    @method_decorator(login_required)
+    def get(self, request, slug, *args, **kwargs):
+        post = get_object_or_404(Post, slug=slug)
+        # Check if the user has the permission to delete the post
+        if request.user == post.author:
+            return render(request, self.template_name, {'post': post})
+        else:
+            messages.error(request, "You don't have permission to delete this post.")
+            return redirect(reverse('post_detail', kwargs={'slug': slug}))
+
+    @method_decorator(login_required)
+    def post(self, request, slug, *args, **kwargs):
+        post = get_object_or_404(Post, slug=slug)
+        # Check if the user has the permission to delete the post
+        if request.user == post.author:
+            post.delete()
+            messages.success(request, "Post deleted successfully.")
+            return redirect(reverse('home'))
+        else:
+            messages.error(request, "You don't have permission to delete this post.")
+            return redirect(reverse('post_detail', kwargs={'slug': slug}))

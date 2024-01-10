@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container-fluid mt-5 mb-5">
+    <div class="container mt-5 pt-4">
+        <div class="col-md-8 mx-auto card mb-5 mt-3">
+            <h2 class="mb-4 text-center">Edit Post</h2>
+            <form method="post" enctype="multipart/form-data" class="text-center">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary">Save Changes</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

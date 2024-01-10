@@ -30,6 +30,10 @@
                         <div class="col-12 col-md-2">
                             <!-- Merging both col-1 into a single col-2 for better spacing -->
                             {% if user.is_authenticated %}
+                            {% if user == post.author %}
+                            <a href="{% url 'post_edit' post.slug %}" class="btn btn-primary">Edit</a>
+                            <a href="{% url 'post_delete' post.slug %}" class="btn btn-danger">Delete</a>
+                            {% endif %}
                             <form class="d-inline" action="{% url 'post_like' post.slug %}" method="POST">
                                 {% csrf_token %}
                                 {% if liked %}
