@@ -32,7 +32,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['sayit23-52a5eb9ddc47.herokuapp.com','8000-mthabs-ourcommunity-y7b5v0j37uj.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['sayit23-52a5eb9ddc47.herokuapp.com','8000-mthabs-ourcommunity-uiwkpxnejj4.ws-eu107.gitpod.io']
 
 
 
@@ -150,7 +150,14 @@ MEDIA_URL = '/media/'
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 STATIC_URL = '/static/'
-STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+#STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dnt7oro5y',
+    'API_KEY': '427836411839368',
+    'API_SECRET': 'HEvssJ6V-IgG32HhY6i_p_vosHA',
+}
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 

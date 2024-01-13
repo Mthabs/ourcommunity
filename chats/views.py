@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
 from django.http import HttpResponseRedirect
 from django.urls import reverse_lazy
-from .models import Post
+from .models import Post, Comment
 from .forms import CommentForm, PostForm
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -57,7 +57,12 @@ class PostDetail(View):
             comment.save()
             return redirect(reverse('post_detail', kwargs={'slug': slug}) + '?commented=true')
         else:
-            comment_form = CommentForm()
+            messages.error(request, "Invalid input. Please correct the errors below.")
+            # Access form errors and handle them as needed
+            for field, errors in comment_form.errors.items():
+                for error in errors:
+                    # You can customize the error handling here
+                    messages.error(request, f"{field}: {error}")
 
         return render(
             request,
@@ -88,13 +93,13 @@ class CommentEdit(View):
 
     @method_decorator(login_required)
     def get(self, request, post_slug, comment_id, *args, **kwargs):
-        comment = get_object_or_404(Comment, id=comment_id, post__slug=post_slug, user=request.user)
+        comment = get_object_or_404(Comment, id=comment_id, post__slug=post_slug, name=request.user.username)
         form = self.form_class(instance=comment)
         return render(request, self.template_name, {'form': form, 'comment': comment})
 
     @method_decorator(login_required)
     def post(self, request, post_slug, comment_id, *args, **kwargs):
-        comment = get_object_or_404(Comment, id=comment_id, post__slug=post_slug, user=request.user)
+        comment = get_object_or_404(Comment, id=comment_id, post__slug=post_slug, name=request.user.username)
         form = self.form_class(request.POST, instance=comment)
         if form.is_valid():
             form.save()
@@ -107,12 +112,12 @@ class CommentDelete(View):
 
     @method_decorator(login_required)
     def get(self, request, post_slug, comment_id, *args, **kwargs):
-        comment = get_object_or_404(Comment, id=comment_id, post__slug=post_slug, user=request.user)
+        comment = get_object_or_404(Comment, id=comment_id, post__slug=post_slug, name=request.user.username)
         return render(request, self.template_name, {'comment': comment})
 
     @method_decorator(login_required)
     def post(self, request, post_slug, comment_id, *args, **kwargs):
-        comment = get_object_or_404(Comment, id=comment_id, post__slug=post_slug, user=request.user)
+        comment = get_object_or_404(Comment, id=comment_id, post__slug=post_slug, name=request.user.username)
         comment.delete()
         messages.success(request, "Comment deleted successfully.")
         return redirect(reverse('post_detail', kwargs={'slug': post_slug}))

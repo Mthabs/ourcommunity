@@ -52,6 +52,7 @@
                         </div>
                         <div>
                             {% if user.is_authenticated and user == post.author %}
+                                <br>
                                 <a href="{% url 'post_edit' post.slug %}" class="btn btn-primary">Edit</a>
                                 <a href="{% url 'post_delete' post.slug %}" class="btn btn-danger">Delete</a>
                             {% endif %}
@@ -75,7 +76,7 @@
                         <p class="font-weight-bold">
                             <!-- The commenter's name goes here. Check the model if you're not sure what that is -->
                             {{ comment.name }}
-                            <span class=" text-muted font-weight-normal">
+                            <span class=" text-white font-weight-normal">
                                 <!-- The comment's created date goes here -->
                                 {{ comment.created_on }}
                             </span>

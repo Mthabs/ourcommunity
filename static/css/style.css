@@ -1,4 +1,3 @@
-
 .logo {
     font-family: 'Arial', sans-serif;
     font-size: 24px;
@@ -11,8 +10,14 @@
     color: black;
     font-weight: bold;
 }
+.logo-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+    display: inline-block; /* Ensure the link takes up only the necessary width */
+}
+
 .bt-purple {
-    color: #800080;
+    color: #f3f6f8;
     font-size: 24px;
     text-decoration: none;
     border: none;
@@ -24,11 +29,11 @@
 }
 
 .dark-bg {
-    background-color: #800080;
+    background-color: #620a19;
 }
 
 .main-bg {
-    background-color: lightgray;
+    background-color: rgb(199, 81, 51);
 }
 
 .card {
@@ -118,11 +123,13 @@
 }
 .btn-like {
     border: none;
+    border-radius: 10px;
+    background-color: #f33857;
 }
 
 .btn-like:hover,
 .btn-like:active {
-    color: red;
+    color: rgb(190, 15, 15);
     background: transparent;
     border: none;
 }
@@ -136,3 +143,9 @@
     max-width: 200px;
     white-space: nowrap;
 }
+
+.btn :hover {
+    color: white;
+    border-radius:8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
