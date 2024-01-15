@@ -15,6 +15,18 @@ class PostList(generic.ListView):
     paginate_by = 6
 
 
+class UserPostList(generic.ListView):
+    model = Post
+    queryset = Post.objects.filter(status=1).order_by("-created_on")
+    template_name = "index.html"
+    paginate_by = 6
+
+    def get_queryset(self):
+        qs = super().get_queryset() 
+        return qs.filter(author=self.request.user)
+
+
+
 class PostDetail(View):
 
     def get(self, request, slug, *args, **kwargs):

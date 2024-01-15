@@ -23,6 +23,7 @@
     border: none;
     text-shadow: 1px 1px 3px rgba(60, 60, 60, 0.5);
     font-weight: bold;
+    margin-left: 10px;
 }
 .light-bg {
     background-color: #fff;
