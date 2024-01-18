@@ -128,6 +128,104 @@ Detailed testing has been conducted across various browsers and screen sizes. Ea
   
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_232238_oatxas.png)
 
+# Manual Testing 
+
+**Testing Context:**
+The following manual tests were conducted on Sayit App to ensure the functionality and reliability of the application. The testing was performed in a controlled environment to validate the behavior of key features.
+- Sayit App was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- Sayit App was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+**1. Authentication:**
+
+Test Results:
+
+- Valid Credentials: Successful authentication; users directed to the home page.
+- Invalid Credentials: Correct error messages displayed; access denied.
+
+**2. Create Post Form:**
+
+Test Results:
+
+- Access Create Post Form: Authenticated users can access the form.
+- Valid Post Creation: Posts are successfully created and listed.
+- Empty Fields: Proper error messages displayed for empty fields.
+
+**3. List Posts:**
+
+Test Results:
+
+- Default Order: Posts displayed in the correct order (newest first).
+- Pagination: Pagination functionality working as expected.
+- Post Preview: Each post in the list displays a preview of its content.
+
+**4. View Each Post:**
+
+Test Results:
+
+- Click on Post: Full post details displayed correctly.
+- Post Navigation: Navigation between posts functioning properly.
+
+**5. Edit and Delete a Post of Authenticated User:**
+
+Test Results:
+
+- Edit Post: Changes successfully reflected in the post details.
+- Delete Post: Post removed from the list.
+
+**6. View Posts of a Particular User:**
+
+Test Results:
+
+- User Profile: Posts of a specific user displayed correctly.
+- Empty User Profile: Message indicating no posts displayed for users with no posts.
+
+**7. Like the Post:**
+
+Test Results:
+
+- Like a Post: Like count increases, and button state reflects the action.
+- Unlike a Post: Like count decreases, and button state reflects the action.
+
+**8. Comment on a Post:**
+
+Test Results:
+
+- Add Comment: Comments appear in the post details.
+- Empty Comment: Proper error message displayed for empty comments.
+
+**9. Edit and Delete a Comment Created by the User:**
+
+Test Results:
+
+- Edit Comment: Changes successfully reflected in the post details.
+- Delete Comment: Comment removed from the post details.
+
+**10. Administrator Approve Comments:**
+
+Test Results:
+
+- Unapproved Comment: Comment not immediately visible until approved.
+- Administrator Approval: Approved comment now visible in the post details.
+
+**11. Admin Can Create Post:**
+
+Test Results:
+
+- Access Create Post Form: Administrators can access the form.
+- Valid Post Creation by Admin: Admin-created post successfully listed.
+
+**12. Admin Can Make Comment:**
+
+Test Results:
+
+- Add Comment as Admin: Admin comments appear in the post details.
+- Empty Comment as Admin: Proper error message displayed for empty admin comments.
+
+**Conclusion:**
+The manual testing process for Sayit App has been comprehensive, covering various aspects of authentication, post creation, viewing, editing, and administrative functionalities. The application performed well, meeting the specified requirements and displaying expected behaviors. Identified issues were documented and communicated to the development team for resolution. This testing report serves as a reference for the application's quality assurance process.
+
 ## Unfixed Bugs
 
 Currently, no unfixed bugs have been identified. As development continues and the platform scales, regular bug tracking and fixes will be implemented.
