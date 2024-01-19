@@ -42,7 +42,7 @@
     background-color: transparent;
 }
 .card-body .alert.alert-success {
-    background-color: purple; 
+    background-color: #5179e1; 
     color:white;
     text-align: center;
     opacity:0.6;
@@ -58,7 +58,7 @@
 }
 
 .masthead-text {
-    background-color: purple;
+    background-color: #5179e1;
     opacity: 0.8;
     color: white;
     position: relative;
@@ -76,7 +76,7 @@
     right: 90%;
     height: 100%;
     width: 150%;
-    background: purple;
+    background: #5179e1;
     opacity: 0.8;
     z-index: 100;
 }
@@ -102,18 +102,18 @@
 }
 
 .btn-signup {
-    background-color: purple;
+    background-color: #5179e1;
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
-    color: purple;
+    color: #5179e1;
 }
 
 .link {
-    color: purple;
+    color: #5179e1;
     text-decoration: none;
 }
 
@@ -136,7 +136,7 @@
 }
 
 .text-center button{
-    background-color: purple;
+    background-color: #5179e1;
 }
 
 .btn {
