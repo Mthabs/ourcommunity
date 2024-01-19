@@ -25,6 +25,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 **Existing Features**
 
 **1. Navigation Bar**
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705659654/nav_1.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705659654/nav_2.png)
 -	Unparalleled Ease: With a crisp design and intuitive layout, users can effortlessly journey through the site's various sections, without the guesswork.
@@ -34,6 +35,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Optimized for All Devices: Whether on a smartphone, tablet, or desktop, the navigation retains its aesthetics and functionality, guaranteeing a consistent user experience.
 
 **2. Landing Page**
+
   ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705661292/landing_page.png)
 -	First Impressions Matter: Crafted to captivate and inform simultaneously, ensuring newcomers are instantly engaged and informed.
 -	Content Showcase: A curated display of recent posts acts as a teaser, encouraging deeper exploration.
@@ -42,6 +44,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Engagement Catalyst: With prominent links and call-to-actions, the landing page serves as the heartbeat of user activity.
    
 **3.1 Sign Up & Login Pages**
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/signup.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/sign_in.png)
 -	User-centric Flow: Clearly demarcated fields guide newcomers to effortlessly create an account.
@@ -53,9 +56,11 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Seamless Integration: Post-signup/login, users are redirected to the landing page, ensuring a fluid navigation experience.
 
 **3.1 Logout Pages**
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662711/logout.png)
    
 **4. Post Creation Form**
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662956/create_post.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705663317/create_post_error.png)
 -	Empowering Creators: A meticulously designed form ensures users can articulate and share their thoughts without any hurdles.
@@ -65,6 +70,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Instant Gratification: Upon post submission, creators immediately witness their content on the landing page, fostering a sense of achievement.
    
 **5.	Index (Main Content Display)**
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705663919/home_page_index.png)
 -	Content Galore: A vibrant display of posts, equipped with all the necessary snippets like author, date, Content and excerpt.
 -	Engagement Metrics: With real-time likes and comments, readers can instantly gauge post popularity.
@@ -74,6 +80,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 - Pagination: with a limit of 6 allows users to navigate through different pages.
    
 **6.	Post Detail Page**
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664109/post_detail_page.png)
 -	Holistic Experience: Beyond the post's content, users can interact through likes, comments, and share options.
 -	Engagement Amplified: A dedicated space for comments fosters richer discussions and deeper community bonds.
@@ -82,6 +89,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Seamless Return: Prominent 'Home' links ensure readers can effortlessly jump back to the main content hub.
 
 **6.2	Comment Page**
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664342/comment_form.png)
 - The comments section lists all comments left by users for that particular post
 - Comments can only be left if a user is logged in. Any comments left by the user that is currently signed in can be updated or deleted using edit and delete in the comment
@@ -89,6 +97,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705670805/delete_comment.png)
 
 **7.	Footer**
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705670996/footer.png)
 -	Social Connectivity: Direct links to Sayit's social channels expand the community beyond the main site.
 -	Stay Updated: Users can follow updates, events, and news through connected social platforms.
@@ -111,6 +120,7 @@ Each feature has been meticulously designed and structured to enhance user exper
 These enhancements are not just additions, but a testament to our commitment to continually refining the user experience. We believe in evolving with our community's needs and are excited to bring these new facets to our platform soon.
 
 ## Testing
+
 Detailed testing has been conducted across various browsers and screen sizes. Each feature has been rigorously tested to ensure optimal performance.
 
 ## Validator Testing
@@ -121,41 +131,53 @@ Detailed testing has been conducted across various browsers and screen sizes. Ea
 - No errors were identified when validated through the official W3C validator.
   
   ### Home page validation
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705671396/valid_homepage.png)
 
   ### post detail page validation
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705671601/valid_postdetail.png)
 
   ### Create post validation
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673416/valid_addpost.png)
 
   ### post Edit page validation
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705671807/valid_postedit.png)
 
   ### post Delete page validation
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705671981/valid_postdelete.png)
 
   ### comment Edit page validation
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705672430/comment_edit.png)
 
   ### comment Delete page validation
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705672579/comment_delete.png)
 
   ### SignUp validation
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705672935/valid_signup.png)
 
   ### Login validation
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673089/vali_login.png)
 
   ### Logout validation
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673233/valid_logout.png)
 
 **HTML**
+
 - Validated using the HTML Checker validator with no errors found.
   
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705674253/validate_html.png)
 
 **CSS**
+
 - Validated using the Jigsaw validator with no errors found.
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673891/valid_css.png)
@@ -163,7 +185,9 @@ Detailed testing has been conducted across various browsers and screen sizes. Ea
 # Manual Testing 
 
 **Testing Context:**
+
 The following manual tests were conducted on Sayit App to ensure the functionality and reliability of the application. The testing was performed in a controlled environment to validate the behavior of key features.
+
 - Sayit App was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 - Sayit App was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 - A large amount of testing was done to ensure that all pages were linking correctly.
@@ -172,6 +196,7 @@ The following manual tests were conducted on Sayit App to ensure the functionali
 **1. Authentication:**
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/signup.png)
+
 Test Results:
 
 - Valid Credentials: Successful authentication; users directed to the home page.
@@ -181,6 +206,7 @@ Test Results:
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662956/create_post.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705663317/create_post_error.png)
+
 Test Results:
 
 - Access Create Post Form: Authenticated users can access the form.
@@ -190,6 +216,7 @@ Test Results:
 **3. List Posts:**
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705663919/home_page_index.png)
+
 Test Results:
 
 - Default Order: Posts displayed in the correct order (newest first).
@@ -209,6 +236,7 @@ Test Results:
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705676786/post_delet.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705677039/post_editp.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705677039/post_deletp.png)
+
 Test Results:
 
 - Edit Post: Changes successfully reflected in the post details.
@@ -217,6 +245,7 @@ Test Results:
 **6. View Posts of a Particular User:**
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705677357/post_list1.png)
+
 Test Results:
 
 - User Profile: Posts of a specific user displayed correctly.
@@ -226,6 +255,7 @@ Test Results:
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705677528/post_unlike.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705677528/post_like.png)
+
 Test Results:
 
 - Like a Post: Like count increases, and button state reflects the action.
@@ -234,6 +264,7 @@ Test Results:
 **8. Comment on a Post:**
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664342/comment_form.png)
+
 Test Results:
 
 - Add Comment: Comments appear in the post details.
@@ -243,6 +274,7 @@ Test Results:
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705670805/update_comment.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705670805/delete_comment.png)
+
 Test Results:
 
 - Edit Comment: Changes successfully reflected in the post details.
@@ -251,6 +283,7 @@ Test Results:
 **10. Administrator Approve Comments:**
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705678172/Approve%20_comment.png)
+
 Test Results:
 
 - Unapproved Comment: Comment not immediately visible until approved.
@@ -259,6 +292,7 @@ Test Results:
 **11. Admin Can Create Post:**
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705678172/Admin_add_post.png)
+
 Test Results:
 
 - Access Create Post Form: Administrators can access the form.
@@ -267,12 +301,14 @@ Test Results:
 **12. Admin Can Make Comment:**
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705678172/Admin_add_comment.png)
+
 Test Results:
 
 - Add Comment as Admin: Admin comments appear in the post details.
 - Empty Comment as Admin: Proper error message displayed for empty admin comments.
 
 **Conclusion:**
+
 The manual testing process for Sayit App has been comprehensive, covering various aspects of authentication, post creation, viewing, editing, and administrative functionalities. The application performed well, meeting the specified requirements and displaying expected behaviors. Identified issues were documented and communicated to the development team for resolution. This testing report serves as a reference for the application's quality assurance process.
 
 ## Unfixed Bugs
@@ -282,6 +318,7 @@ Currently, no unfixed bugs have been identified. As development continues and th
 ## Deployment
 
 **Sayit has been deployed on Heroku:**
+
 Before getting to Heroku Dashboard. In my project workspace, I set the Debug flag to False, and added another setting: `X_FRAME_OPTIONS = 'SAMEORIGIN'`
 Now back to Heroku Dashboard,
 
@@ -295,11 +332,13 @@ Now back to Heroku Dashboard,
 ## Credits
 
 ## Content
+
 -	News articles are user-generated.
 -	Commenting functionality implemented with guidance from specific Django documentation.
 -	Icons sourced from Font Awesome.
 
 ## Media
+
 -	Main sites provided by default or uploaded by the user.
 
 
@@ -310,13 +349,18 @@ Now back to Heroku Dashboard,
 ***Tasks:***
 
 1.	Front-end:
+
 -   Set up a Home page layout with the list of blog posts.
 -   Each post should display the title, an excerpt, author, date, and associated image.
 -   Ensure the site is responsive for mobile and tablet views.
+
 2.	Back-end:
+
 -   Create a Post model with fields: title, content, author, date, featured_image.
 -   Set up views and routes to retrieve and display all posts.
+
 3.	Testing:
+
 -   Check the list of posts on different devices and browsers.
 -   Test if all necessary post details are being displayed.
   
@@ -325,11 +369,16 @@ Now back to Heroku Dashboard,
 ***Tasks:***
 
 1.	Front-end:
+
 -   Set up a Post Detail page layout.
 -   Display full post content, including title, content, author, date, and featured_image.
+
 2.	Back-end:
+
 -   Set up views and routes to retrieve and display a single post based on its unique identifier or slug.
+
 3.	Testing:
+
 -   Ensure that clicking on a post title redirects to its detailed view.
 -   Check the details page on different devices and browsers.
 
@@ -338,12 +387,17 @@ Now back to Heroku Dashboard,
 ***Tasks:***
 
 1.	Front-end:
+
 -   Create a Post Add form with fields for title, content, and image upload.
 -   Implement user feedback mechanisms like success and error notifications.
+
 2.	Back-end:
+
 -   Implement authentication checks to ensure only logged-in users can add posts.
 -   Save the new post details to the database.
+
 3.	Testing:
+
 -   Test the post creation form for validation errors.
 -   Ensure posts are correctly saved to the database.
   
@@ -352,12 +406,17 @@ Now back to Heroku Dashboard,
 ***Tasks:***
 
 1.	Front-end:
+
 -   Create a comment form below each post in its detail view.
 -   Display existing comments with the commenter's name and date.
+
 2.	Back-end:
+
 -   Create a Comment model with fields: post, commenter_name, content, date.
 -   Save new comments to the database.
+
 3.	Testing:
+
 -   Test the comment form for validation errors.
 -   Ensure comments are correctly saved under the associated post.
   
@@ -366,12 +425,17 @@ Now back to Heroku Dashboard,
 ***Tasks:***
 
 1.	Front-end:
+
 -   Display a like button beneath each post.
 -   Show the number of likes a post has received.
+
 2.	Back-end:
+
 -   Implement a mechanism to record likes, ensuring a user can only like a post once.
 -   Update the post's like count in the database.
+
 3.	Testing:
+
 -   Ensure the like count increases only once per user.
 -   Test the like feature across different posts.
   
@@ -380,12 +444,17 @@ Now back to Heroku Dashboard,
 ***Tasks:***
 
 1.	Front-end:
+
 -   Implement a clear and responsive navigation bar.
 -   Ensure the site's 'home' redirects to the home page.
 -   Place major site links (Home, Create Post, Sign Up, Login) in the navbar.
+
 2.	Back-end:
+
 -   Ensure all navigation routes are correctly set up and accessible.
+
 3.	Testing:
+
 -   Navigate through the site on various devices ensuring smooth transitions between sections.
 -   Test all navigation links to ensure they lead to the correct destinations.
 
