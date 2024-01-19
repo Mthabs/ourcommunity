@@ -15,7 +15,7 @@
     color: inherit; /* Inherit color from parent */
     display: inline-block; /* Ensure the link takes up only the necessary width */
 }
-#navbarText:hover{
+#navbarText a:hover{
     color: #f3f6f8;
 }
 

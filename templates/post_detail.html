@@ -51,10 +51,10 @@
                             <span>{{ total_comments }} comments</span>
                             {% endwith %}
                         </div>
-                        <span class=" text-black font-weight-normal">
+                        <div class=" text-black font-weight-normal">
                             <!-- The comment's created date goes here -->
                             {{ post.created_on }}
-                        </span>
+                        </div>
                         <div>
                             {% if user.is_authenticated and user == post.author %}
                                 <br>

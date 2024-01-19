@@ -34,8 +34,11 @@
               {% endwith %}
                 <strong>{{post.number_of_likes }}</strong> likes
               </p>
+              <span class=" text-black font-weight-normal">
+                <!-- The comment's created date goes here -->
+                {{ post.created_on }}
+              </span>
               {% if user.is_authenticated and user == post.author %}
-                <br>
                 <a href="{% url 'post_edit' post.slug %}" class="btn btn-primary">Edit</a> 
                 <a href="{% url 'post_delete' post.slug %}" class="btn btn-danger">Delete</a>
               {% endif %}
