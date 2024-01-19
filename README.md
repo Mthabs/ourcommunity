@@ -13,15 +13,10 @@ Sayit isn't just a website; it's a journey where your stories, opinions, and voi
 
 With a robust framework that immaculately blends innovative design with user-centric features, Sayit extends beyond being a mere platform, evolving into a digital ecosystem that is deeply rooted in shared narratives, collective storytelling, and unwavering solidarity among its community members. We are not just a website; we are a collective, a community, and most importantly, we are a voice-	YOUR voice.
 
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774941/homepage_gz4k1h.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705658941/res_1.png)
 
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774940/PostComments_page_wojqj6.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705658941/res_2.png)
 
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774939/smallest_resolution_addcomments_ln8pfw.png)
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774939/smallest_resolution_addcomments2_f0csga.png)
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774939/smallest_resolution_SignUp1_vunu2a.png)
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774938/smallest_resolution_Logout_z4p1ei.png)
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696775912/create_q9uvrr.png)
     
 **Features**
 
@@ -30,7 +25,8 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 **Existing Features**
 
 **1. Navigation Bar**
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696776219/navigation_i2uspl.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705659654/nav_1.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705659654/nav_2.png)
 -	Unparalleled Ease: With a crisp design and intuitive layout, users can effortlessly journey through the site's various sections, without the guesswork.
 -	Branding Recognition: A prominently placed logo reinforces brand identity, enhancing user trust and platform legitimacy.
 -	Instant Access: Direct links to the Home, Sign Up, Login, and Create Post, ensuring users are always one click away from their desired action.
@@ -38,45 +34,60 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 -	Optimized for All Devices: Whether on a smartphone, tablet, or desktop, the navigation retains its aesthetics and functionality, guaranteeing a consistent user experience.
 
 **2. Landing Page**
-  ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1696774940/Screenshot_2023-10-08_150351_xuqppn.png)
+  ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705661292/landing_page.png)
 -	First Impressions Matter: Crafted to captivate and inform simultaneously, ensuring newcomers are instantly engaged and informed.
 -	Content Showcase: A curated display of recent posts acts as a teaser, encouraging deeper exploration.
 -	Responsive Design: Optimized to dazzle on any screen size, making sure every visitor's experience is top-notch.
 -	Quick Overview: Users can gauge the site's essence at a glance, streamlining their journey.
 -	Engagement Catalyst: With prominent links and call-to-actions, the landing page serves as the heartbeat of user activity.
    
-**3. Sign Up & Login Pages**
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774941/Screenshot_2023-10-08_150048_vk6yoz.png)
+**3.1 Sign Up & Login Pages**
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/signup.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/sign_in.png)
 -	User-centric Flow: Clearly demarcated fields guide newcomers to effortlessly create an account.
 -	Secure & Transparent: Embedded password guidelines guarantee robust security while keeping users in the loop.
 -	Versatility: Provides pathways for both newcomers and returning users, ensuring smooth transitions.
 -	Feedback Mechanisms: Instant alerts for any errors or missing information, minimizing user frustration.
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/signup_error.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/sign_in_error.png)
 -	Seamless Integration: Post-signup/login, users are redirected to the landing page, ensuring a fluid navigation experience.
+
+**3.1 Logout Pages**
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662711/logout.png)
    
 **4. Post Creation Form**
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774940/Screenshot_2023-10-08_150425_jryuxe.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662956/create_post.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705663317/create_post_error.png)
 -	Empowering Creators: A meticulously designed form ensures users can articulate and share their thoughts without any hurdles.
--	Tailored Publishing: Fields like slug and author selection give creators control over post presentation.
+-	Tailored Publishing: Fields like slug and category selection give creators control over post presentation.
 -	Visual Engagement: The image upload feature allows for enriched content, enhancing reader engagement.
 -	Streamlined Process: With intuitive field placements and helpful tooltips, even novices can create like pros.
 -	Instant Gratification: Upon post submission, creators immediately witness their content on the landing page, fostering a sense of achievement.
    
 **5.	Index (Main Content Display)**
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774940/Screenshot_2023-10-08_150351_xuqppn.png)
--	Content Galore: A vibrant display of posts, equipped with all the necessary snippets like author, date, and excerpt.
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705663919/home_page_index.png)
+-	Content Galore: A vibrant display of posts, equipped with all the necessary snippets like author, date, Content and excerpt.
 -	Engagement Metrics: With real-time likes and comments, readers can instantly gauge post popularity.
 -	Diverse Exploration: Each post acts as an invitation to delve deeper, with clickable titles and images.
 -	Timely Updates: Freshly curated content ensures users always have something new to explore.
 -	Community Pulse: By showcasing reader engagement, the index page embodies the vibrancy of the Sayit community.
+- Pagination: with a limit of 6 allows users to navigate through different pages.
    
 **6.	Post Detail Page**
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696774940/Screenshot_2023-10-08_150525_h4304g.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664109/post_detail_page.png)
 -	Holistic Experience: Beyond the post's content, users can interact through likes, comments, and share options.
 -	Engagement Amplified: A dedicated space for comments fosters richer discussions and deeper community bonds.
 -	Instant Feedback Loop: Comment approval notifications ensure users feel acknowledged and valued.
 -	Content Depth: With full post details, readers can immerse themselves without distractions.
 -	Seamless Return: Prominent 'Home' links ensure readers can effortlessly jump back to the main content hub.
-   
+
+**6.2	Comment Page**
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664342/comment_form.png)
+- The comments section lists all comments left by users for that particular post
+- Comments can only be left if a user is logged in. Any comments left by the user that is currently signed in can be updated or deleted using edit and delete in the comment
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664342/comment_form.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664342/comment_form.png)
+
 **7.	Footer**
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696776709/footer_ktkey1.png)
 -	Social Connectivity: Direct links to Sayit's social channels expand the community beyond the main site.
