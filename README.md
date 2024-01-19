@@ -171,7 +171,7 @@ The following manual tests were conducted on Sayit App to ensure the functionali
 
 **1. Authentication:**
 
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673891/valid_css.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/signup.png)
 Test Results:
 
 - Valid Credentials: Successful authentication; users directed to the home page.
@@ -179,7 +179,8 @@ Test Results:
 
 **2. Create Post Form:**
 
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673891/valid_css.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662956/create_post.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705663317/create_post_error.png)
 Test Results:
 
 - Access Create Post Form: Authenticated users can access the form.
@@ -188,7 +189,7 @@ Test Results:
 
 **3. List Posts:**
 
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673891/valid_css.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705663919/home_page_index.png)
 Test Results:
 
 - Default Order: Posts displayed in the correct order (newest first).
@@ -197,6 +198,7 @@ Test Results:
 
 **4. View Each Post:**
 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664109/post_detail_page.png)
 Test Results:
 
 - Click on Post: Full post details displayed correctly.
@@ -204,6 +206,9 @@ Test Results:
 
 **5. Edit and Delete a Post of Authenticated User:**
 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705676786/post_delet.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705677039/post_editp.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705677039/post_deletp.png)
 Test Results:
 
 - Edit Post: Changes successfully reflected in the post details.
@@ -211,6 +216,7 @@ Test Results:
 
 **6. View Posts of a Particular User:**
 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705677357/post_list1.png)
 Test Results:
 
 - User Profile: Posts of a specific user displayed correctly.
@@ -218,6 +224,8 @@ Test Results:
 
 **7. Like the Post:**
 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705677528/post_unlike.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705677528/post_like.png)
 Test Results:
 
 - Like a Post: Like count increases, and button state reflects the action.
@@ -225,6 +233,7 @@ Test Results:
 
 **8. Comment on a Post:**
 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664342/comment_form.png)
 Test Results:
 
 - Add Comment: Comments appear in the post details.
@@ -232,6 +241,8 @@ Test Results:
 
 **9. Edit and Delete a Comment Created by the User:**
 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705670805/update_comment.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705670805/delete_comment.png)
 Test Results:
 
 - Edit Comment: Changes successfully reflected in the post details.
@@ -239,6 +250,7 @@ Test Results:
 
 **10. Administrator Approve Comments:**
 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705678172/Approve%20_comment.png)
 Test Results:
 
 - Unapproved Comment: Comment not immediately visible until approved.
@@ -246,6 +258,7 @@ Test Results:
 
 **11. Admin Can Create Post:**
 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705678172/Admin_add_post.png)
 Test Results:
 
 - Access Create Post Form: Administrators can access the form.
@@ -253,6 +266,7 @@ Test Results:
 
 **12. Admin Can Make Comment:**
 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705678172/Admin_add_comment.png)
 Test Results:
 
 - Add Comment as Admin: Admin comments appear in the post details.
