@@ -15,6 +15,9 @@
     color: inherit; /* Inherit color from parent */
     display: inline-block; /* Ensure the link takes up only the necessary width */
 }
+#navbarText:hover{
+    color: #f3f6f8;
+}
 
 .bt-purple {
     color: #f3f6f8;
@@ -25,6 +28,7 @@
     font-weight: bold;
     margin-left: 10px;
 }
+
 .light-bg {
     background-color: #fff;
 }
@@ -151,4 +155,12 @@
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
+a {
+    color: #dce0e7;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
 

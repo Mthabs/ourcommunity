@@ -82,7 +82,7 @@
                                 {{ comment.created_on }}
                             </span>
                             {% if user.is_authenticated and user.username == comment.name %}
-                                <a href="{% url 'comment_edit' post_slug=post.slug comment_id=comment.id %}" class="btn btn-primary"></a>>Edit</a>
+                                <a href="{% url 'comment_edit' post_slug=post.slug comment_id=comment.id %}" class="btn btn-primary">Edit</a>
                                 <a href="{% url 'comment_delete' post_slug=post.slug comment_id=comment.id %}" class="btn btn-danger">Delete</a>
                             {% endif %} 
                         </p>
