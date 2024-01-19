@@ -42,12 +42,13 @@
 }
 
 .card {
+    color: black;
     border: none;
     background-color: transparent;
 }
 .card-body .alert.alert-success {
     background-color: #5179e1; 
-    color:white;
+    color: black;
     text-align: center;
     opacity:0.6;
 }
