@@ -1,15 +1,15 @@
 
-## Sayit News Platform
+## Sayit Chat Platform
 
 ## Introduction
 
 In a digital realm that constantly evolves, Sayit emerges as your personalized platform, woven meticulously with the threads of connectivity, expression, and a resolute community spirit. Envisioned to be more than just a digital meeting point, Sayit aims to bring to light the profound stories, ideologies, and imaginations that often remain shadowed in our day-to-day dialogues. With a tapestry that intricately binds authors, readers, and commenters into a unified digital ecosystem, our platform is dedicated to fostering a space where your words find the right ears, and your stories, the right hearts.
 
-Our platform isn't merely a virtual space; it's a thriving community where every post breathes life into conversations and every comment adds a new layer to those narratives. Designed intuitively, Sayit extends a warm invite to individuals across spectrums, from the seasoned author crafting intricate tales to the casual reader seeking an oasis of thoughts and perspectives. It is a confluence where your voice, whether whispered gently in poetic verses or stated boldly in impassioned articles, reverberates across diverse digital corridors.
+Our platform isn't merely a virtual space, it's a thriving community where every post breathes life into conversations and every comment adds a new layer to those narratives. Designed intuitively, Sayit extends a warm invite to individuals across spectrums, from the seasoned author crafting intricate tales to the casual reader seeking an oasis of thoughts and perspectives. It is a confluence where your voice, whether whispered gently in poetic verses or stated boldly in impassioned articles, reverberates across diverse digital corridors.
 
-Sayit's intricate design pivots on a user-friendly interface, facilitating ease of navigation and a seamless transition between varied sections-	be it a spirited conversation in the comments, the evocative tales unfolded in the posts, or the candid reflections captured in personal profiles. Every narrative shared here not only receives a platform but also an engaged audience that listens, responds, and collaborates, weaving a rich tapestry of interconnected stories and experiences.
+Sayit's intricate design pivots on a user-friendly interface, facilitating ease of navigation and a seamless transition between varied sections be it a spirited conversation in the comments, the evocative tales unfolded in the posts, or the candid reflections captured in personal profiles. Every narrative shared here not only receives a platform but also an engaged audience that listens, responds, and collaborates, weaving a rich tapestry of interconnected stories and experiences.
 
-Sayit isn't just a website; it's a journey where your stories, opinions, and voices are not only heard but celebrated and woven into a collective narrative that transcends digital boundaries. We embark on this journey with an unwavering commitment to maintaining a space that honors every voice, values every story, and cherishes every interaction. It's not just a platform; it's a global stage where your voice takes the spotlight, echoing in the vast expanses of the digital world.
+Sayit isn't just a website it's a journey where your stories, opinions, and voices are not only heard but celebrated and woven into a collective narrative that transcends digital boundaries. We embark on this journey with an unwavering commitment to maintaining a space that honors every voice, values every story, and cherishes every interaction. It's not just a platform; it's a global stage where your voice takes the spotlight, echoing in the vast expanses of the digital world.
 
 With a robust framework that immaculately blends innovative design with user-centric features, Sayit extends beyond being a mere platform, evolving into a digital ecosystem that is deeply rooted in shared narratives, collective storytelling, and unwavering solidarity among its community members. We are not just a website; we are a collective, a community, and most importantly, we are a voice-	YOUR voice.
 
@@ -28,6 +28,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705659654/nav_1.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705659654/nav_2.png)
+
 -	Unparalleled Ease: With a crisp design and intuitive layout, users can effortlessly journey through the site's various sections, without the guesswork.
 -	Branding Recognition: A prominently placed logo reinforces brand identity, enhancing user trust and platform legitimacy.
 -	Instant Access: Direct links to the Home, Sign Up, Login, and Create Post, ensuring users are always one click away from their desired action.
@@ -37,6 +38,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 **2. Landing Page**
 
   ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705661292/landing_page.png)
+
 -	First Impressions Matter: Crafted to captivate and inform simultaneously, ensuring newcomers are instantly engaged and informed.
 -	Content Showcase: A curated display of recent posts acts as a teaser, encouraging deeper exploration.
 -	Responsive Design: Optimized to dazzle on any screen size, making sure every visitor's experience is top-notch.
@@ -47,12 +49,15 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/signup.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/sign_in.png)
+
 -	User-centric Flow: Clearly demarcated fields guide newcomers to effortlessly create an account.
 -	Secure & Transparent: Embedded password guidelines guarantee robust security while keeping users in the loop.
 -	Versatility: Provides pathways for both newcomers and returning users, ensuring smooth transitions.
 -	Feedback Mechanisms: Instant alerts for any errors or missing information, minimizing user frustration.
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/signup_error.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/sign_in_error.png)
+
 -	Seamless Integration: Post-signup/login, users are redirected to the landing page, ensuring a fluid navigation experience.
 
 **3.1 Logout Pages**
@@ -63,6 +68,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662956/create_post.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705663317/create_post_error.png)
+
 -	Empowering Creators: A meticulously designed form ensures users can articulate and share their thoughts without any hurdles.
 -	Tailored Publishing: Fields like slug and category selection give creators control over post presentation.
 -	Visual Engagement: The image upload feature allows for enriched content, enhancing reader engagement.
@@ -72,6 +78,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 **5.	Index (Main Content Display)**
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705663919/home_page_index.png)
+
 -	Content Galore: A vibrant display of posts, equipped with all the necessary snippets like author, date, Content and excerpt.
 -	Engagement Metrics: With real-time likes and comments, readers can instantly gauge post popularity.
 -	Diverse Exploration: Each post acts as an invitation to delve deeper, with clickable titles and images.
@@ -82,6 +89,7 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 **6.	Post Detail Page**
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664109/post_detail_page.png)
+
 -	Holistic Experience: Beyond the post's content, users can interact through likes, comments, and share options.
 -	Engagement Amplified: A dedicated space for comments fosters richer discussions and deeper community bonds.
 -	Instant Feedback Loop: Comment approval notifications ensure users feel acknowledged and valued.
@@ -91,14 +99,17 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 **6.2	Comment Page**
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664342/comment_form.png)
+
 - The comments section lists all comments left by users for that particular post
-- Comments can only be left if a user is logged in. Any comments left by the user that is currently signed in can be updated or deleted using edit and delete in the comment
+- Comments can only be left if a user is logged in. Any comments left by the user that is currently signed in can be updated or deleted using edit and delete in the comment.
+
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705670805/update_comment.png)
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705670805/delete_comment.png)
 
 **7.	Footer**
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705670996/footer.png)
+
 -	Social Connectivity: Direct links to Sayit's social channels expand the community beyond the main site.
 -	Stay Updated: Users can follow updates, events, and news through connected social platforms.
 -	Brand Reinforcement: A consistent footer across pages cements the brand's digital footprint.
@@ -191,6 +202,8 @@ The following manual tests were conducted on Sayit App to ensure the functionali
 **1. Authentication:**
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/signup.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/signup_error.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705662093/sign_in_error.png)
 
 Test Results:
 
