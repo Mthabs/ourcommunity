@@ -85,11 +85,11 @@ The Sayit site has been meticulously crafted to offer users an interactive platf
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664342/comment_form.png)
 - The comments section lists all comments left by users for that particular post
 - Comments can only be left if a user is logged in. Any comments left by the user that is currently signed in can be updated or deleted using edit and delete in the comment
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664342/comment_form.png)
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705664342/comment_form.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705670805/update_comment.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705670805/delete_comment.png)
 
 **7.	Footer**
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696776709/footer_ktkey1.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705670996/footer.png)
 -	Social Connectivity: Direct links to Sayit's social channels expand the community beyond the main site.
 -	Stay Updated: Users can follow updates, events, and news through connected social platforms.
 -	Brand Reinforcement: A consistent footer across pages cements the brand's digital footprint.
@@ -121,23 +121,44 @@ Detailed testing has been conducted across various browsers and screen sizes. Ea
 - No errors were identified when validated through the official W3C validator.
   
   ### Home page validation
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696804338/Screenshot_2023-10-08_233126_yf7mst.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705671396/valid_homepage.png)
 
-  ### SignUp validation
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_231804_d0c4br.png)
-
-  ### Login validation
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_231857_emshsr.png)
-
-  ### Logout validation
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_230609_uisvww.png)
+  ### post detail page validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705671601/valid_postdetail.png)
 
   ### Create post validation
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_230428_ogono5.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673416/valid_addpost.png)
+
+  ### post Edit page validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705671807/valid_postedit.png)
+
+  ### post Delete page validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705671981/valid_postdelete.png)
+
+  ### comment Edit page validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705672430/comment_edit.png)
+
+  ### comment Delete page validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705672579/comment_delete.png)
+
+  ### SignUp validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705672935/valid_signup.png)
+
+  ### Login validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673089/vali_login.png)
+
+  ### Logout validation
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673233/valid_logout.png)
+
+**HTML**
+- Validated using the HTML Checker validator with no errors found.
+  
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705674253/validate_html.png)
+
 **CSS**
 - Validated using the Jigsaw validator with no errors found.
-  
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1696803811/Screenshot_2023-10-08_232238_oatxas.png)
+
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673891/valid_css.png)
 
 # Manual Testing 
 
@@ -150,6 +171,7 @@ The following manual tests were conducted on Sayit App to ensure the functionali
 
 **1. Authentication:**
 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673891/valid_css.png)
 Test Results:
 
 - Valid Credentials: Successful authentication; users directed to the home page.
@@ -157,6 +179,7 @@ Test Results:
 
 **2. Create Post Form:**
 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673891/valid_css.png)
 Test Results:
 
 - Access Create Post Form: Authenticated users can access the form.
@@ -165,6 +188,7 @@ Test Results:
 
 **3. List Posts:**
 
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673891/valid_css.png)
 Test Results:
 
 - Default Order: Posts displayed in the correct order (newest first).
