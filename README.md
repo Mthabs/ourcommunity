@@ -127,12 +127,13 @@ Detailed testing has been conducted across various browsers and screen sizes. Ea
 
 **HTML**
 
-
-- No errors were identified when validated through the official W3C validator.
+- Validated using the HTML Checker validator with no errors found.
+  
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705674253/validate_html.png)
   
   ### Home page validation
 
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705671396/valid_homepage.png)
+![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705674253/validate_html.png)
 
   ### post detail page validation
 
@@ -169,12 +170,6 @@ Detailed testing has been conducted across various browsers and screen sizes. Ea
   ### Logout validation
 
 ![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705673233/valid_logout.png)
-
-**HTML**
-
-- Validated using the HTML Checker validator with no errors found.
-  
-![ezcv logo](https://res.cloudinary.com/dnt7oro5y/image/upload/v1705674253/validate_html.png)
 
 **CSS**
 
